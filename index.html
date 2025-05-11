@@ -337,7 +337,7 @@
                         <span class="contact__text">+91 93421 57391</span>
                     </div>
 
-                    <form action="https://formsubmit.co/mohityt175@gmail.com" method="POST" class="contact__form">
+                    <form class="contact__form" action="https://formsubmit.co/mohityt175@gmail.com" method="POST">
                         <div class="contact__inputs">
                             <input type="text" name="name" placeholder="Name" class="contact__input" required>
                             <input type="email" name="email" placeholder="Email" class="contact__input" required>
@@ -345,10 +345,11 @@
 
                         <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Your message" required></textarea>
                         
-                        <!-- Hidden inputs for FormSubmit configuration -->
-                        <input type="hidden" name="_subject" value="New Portfolio Contact Request">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
                         <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_next" value="#contact">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://mohitroscen.github.io/Mohit-portfolio/thank-you.html">
 
                         <input type="submit" value="Send Message" class="contact__button">
                     </form>
