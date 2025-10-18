@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== FAVICON ===== -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon.png">
+        <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <meta name="theme-color" content="#5361FF">
+         <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.77/build/spline-viewer.js"></script>
+       
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CANVAS CONFETTI ===== -->
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+
+
+        <title>Mohit Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Mohit Roscen</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid\">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+                    <spline-viewer class= "robot-3d" url="https://prod.spline.design/TL0r63Qp3OBLLzwP/scene.splinecode"></spline-viewer>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+                </div>
+            </section>
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <!-- Two-column layout -->
+                    <div class="about__content">
+                        <!-- Left Column: Photo, Resume, Social -->
+                        <div class="about__img-side">
+                            <div class="about__img-container">
+                                <!-- Professional image card -->
+                                <div class="about__img-card">
+                                    <img src="assets/img/about-image.jpeg" alt="Mohit Roscen" class="about__img-professional">
+                                </div>
+                                <div class="about__resume-actions">
+                                    <a href="assets/my_resume (1).pdf" target="_blank" class="button">View Resume</a>
+                                    <a href="assets/my_resume (1).pdf" download class="button" title="Download Resume">
+                                        <i class='bx bx-download'></i>
+                                    </a>
+                                </div>
+                                <div class="about__social">
+                                    <a href="https://www.linkedin.com/in/mohit-roscen-389367293/" class="about__social-icon" style="transition: none !important; transform: none !important;"><i class='bx bxl-linkedin' style="transition: none !important;"></i></a>
+                                    <a href="https://github.com/mohitroscen" class="about__social-icon" style="transition: none !important; transform: none !important;"><i class='bx bxl-github' style="transition: none !important;"></i></a>
+                                    <a href="https://www.instagram.com/neuron.tech_/" class="about__social-icon" style="transition: none !important; transform: none !important;"><i class='bx bxl-instagram' style="transition: none !important;"></i></a>
+                                    <a href="https://x.com/mohityt175" class="about__social-icon" style="transition: none !important; transform: none !important;"><i class='bx bxl-twitter' style="transition: none !important;"></i></a>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohityt175@gmail.com&su=Interested%20in%20Collaborating" class="about__social-icon" style="transition: none !important; transform: none !important;"><i class='bx bx-envelope' style="transition: none !important;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Bio, Personal Info in strategic order -->
+                        <div class="about__info-side">
+                            <h2 class="about__name">MOHIT ROSCEN</h2>
+                            
+                            <p class="about__description">
+                                I'm a <span class="highlight">passionate web developer</span> with hands-on experience in building robust <span class="highlight">hardware-integrated systems</span> using Arduino and microcontrollers. I blend software and hardware to create smart, scalable solutions, thriving at the intersection of <span class="highlight">code, circuitry, and innovation</span> bringing ideas to life through both web technologies and physical computing.
+                                <br><br>
+                                I'm also the <span class="highlight">Co-Founder & Lead Developer at Neuron Tech Pvt Ltd</span> a tech startup focused on crafting intelligent embedded systems and cutting-edge software solutions. At Neuron Tech, I lead development initiatives that combine <span class="highlight">innovation, problem-solving, and real-world impact</span>.
+                            </p>
+
+                            <!-- Card-based info layout -->
+                            <div class="info-cards">
+                                <!-- City Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-map'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">City</h3>
+                                        <p class="card-value">Puducherry, India</p>
+                                    </div>
+                                </div>
+
+                                <!-- Degree Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-book-alt'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Degree</h3>
+                                        <p class="card-value">Pursuing B.Tech [CSE]</p>
+                                    </div>
+                                </div>
+
+                                <!-- Email Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-envelope'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Email</h3>
+                                        <p class="card-value"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohityt175@gmail.com&su=Interested%20in%20Collaborating&body=Hi%20Mohit,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you.%0D%0A%0D%0ALet's%20discuss%20a%20potential%20collaboration%20or%20project%20opportunity.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you!%0D%0A%0D%0ABest%20regards," target="_blank" class="gmail-connect">mohityt175@gmail.com</a></p>
+                                    </div>
+                                </div>
+
+                                <!-- Phone Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-phone'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Phone</h3>
+                                        <p class="card-value">+91 9342157391</p>
+                                    </div>
+                                </div>
+
+                                <!-- Languages Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-conversation'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Languages</h3>
+                                        <p class="card-value">English, Tamil & Hindi</p>
+                                    </div>
+                                </div>
+
+                                <!-- Hobbies Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-joystick'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Hobbies</h3>
+                                        <p class="card-value">Gaming, Anime, Tech Research</p>
+                                    </div>
+                                </div>
+
+                                <!-- Age Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-calendar'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Age</h3>
+                                        <p class="card-value"> Years</p>
+                                    </div>
+                                </div>
+
+                                <!-- Freelance Card -->
+                                <div class="info-card">
+                                    <div class="card-icon">
+                                        <i class='bx bx-briefcase'></i>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="card-label">Freelance</h3>
+                                        <p class="card-value available">Available <span class="status-dot"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <p class="skills-subtitle">A showcase of my technical expertise and capabilities</p>
+                <div class="skills-grid">
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class='bx bx-code-alt'></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Java</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class='bx bx-wrench'></i>
+                        </div>
+                        <h3>Tools & Platforms</h3>
+                        <ul class="skill-list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>Git & GitHub</span></li>
+                            <li><span>Embedded Systems</span></li>
+                            <li><span>Arduino</span></li>
+                            <li><span>Npm</span></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class='bx bx-palette'></i>
+                        </div>
+                        <h3>Design & Media</h3>
+                        <ul class="skill-list">
+                            <li><span>Canva</span></li>
+                            <li><span>Figma</span></li>
+                            <li><span>Adobe Photoshop</span></li>
+                            <li><span>CapCut</span></li>
+                            <li><span>Figma</span></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/project1.jpeg" alt="AI Drone for Farm Surveillance">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Farm Surveillance Drone</a>
+                            <div class="portfolio__description">
+                                <p>This project features an advanced, <span class="highlight">AI-driven drone</span> designed for <span class="highlight">large-scale farmland surveillance</span>. Equipped with <span class="highlight">high-resolution cameras</span> and powered by <span class="highlight">Artificial Intelligence, Machine Learning, and Deep Learning</span>, the drone <span class="highlight">autonomously flies</span> over fast agricultural areas to monitor crop health in <span class="highlight">real time</span>.</p>
+                                <p>Trained on <span class="highlight">extensive datasets</span> of healthy plants, the drone uses <span class="highlight">computer vision</span> to detect even minor differences in leaves, fruits, or vegetables. When it identifies a potential defect or disease, it <span class="highlight">automatically descends</span> to the affected area, captures detailed images, and sends a <span class="highlight">real-time alert</span> to the farmer's mobile device along with a <span class="highlight">visual diagnosis</span> and the name of the disease or issue.</p>
+                                <p>This intelligent system empowers farmers with <span class="highlight">early detection</span>, <span class="highlight">precise disease identification</span>, and <span class="highlight">timely intervention</span>, revolutionizing crop management and increasing productivity across a wide range of farming applications—not limited to any single crop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project2.jpg" alt="Multipurpose Mobile Robotic Arm Rover">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name" style="margin-top: 2.5rem;">Multipurpose Mobile Robotic Arm Rover</a>
+                            <div class="portfolio__description">
+                                <p>A versatile, <span class="highlight">all-terrain robotic system</span> equipped with a <span class="highlight">precision robotic arm</span>. Designed for tasks in <span class="highlight">industrial, medical, agricultural, domestic, and hazardous environments</span>, it combines mobility with advanced manipulation capabilities.</p>
+                                <p>The rover uses a <span class="highlight">rocker bogie mechanism</span> for smooth terrain navigation and performs tasks like <span class="highlight">sample collection, object handling, and cleaning</span>. It enhances safety, efficiency, and adaptability while reducing human risk and operational costs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project3.jpg" alt="Smart Traffic Light System">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Smart Traffic Light System</a>
+                            <div class="portfolio__description">
+                                <p>A dynamic, <span class="highlight">AI-powered traffic management system</span> that adapts signal timings based on real-time traffic flow, reducing congestion, fuel waste, and pollution. It integrates:</p>
+                                <p><span class="highlight">IoT Sensors & Cameras</span> – Detect vehicle count and flow at intersections.</p>
+                                <p><span class="highlight">AI/ML Algorithms</span> – Analyze live traffic data to optimize signal durations using computer vision and predictive models.</p>
+                                <p><span class="highlight">Microcontroller/Server Logic</span> – Controls signal changes dynamically via Raspberry Pi or simulation-based systems.</p>
+                                <p><span class="highlight">Connected Infrastructure</span> – Syncs across intersections and supports emergency routing and smart city integration.</p>
+                                <p>This project demonstrates intelligent traffic control, ideal for smart city applications and scalable urban mobility solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project4 .jpg" alt="AI-Based Weather Prediction System">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">AI-Based Weather Prediction</a>
+                            <div class="portfolio__description">
+                                <p>An advanced <span class="highlight">weather forecasting system</span> that combines <span class="highlight">real-time API data</span>, <span class="highlight">AI models</span>, and <span class="highlight">IoT sensors</span> to deliver accurate weather predictions. The project features:</p>
+                                <p><span class="highlight">Real-Time Data</span>: Uses OpenWeatherMap API to display current weather conditions with a clean, responsive UI.</p>
+                                <p><span class="highlight">Machine Learning Forecasting</span>: Utilizes Python with LSTM and regression models to predict temperature trends for the next 7 days.</p>
+                                <p><span class="highlight">IoT Integration</span>: Employs sensors (DHT11, BMP180) with Arduino/Raspberry Pi to collect local environmental data and send it to the cloud (ThingSpeak).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project5.jpg" alt="MedicForm - AI Healthcare Assistant">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name" style="margin-top: 2.5rem;">MedicForm – AI Healthcare Assistant</a>
+                            <div class="portfolio__description">
+                                <p>An <span class="highlight">AI-powered virtual assistant</span> designed for clinics and hospitals to automate patient intake and engagement. Acting as a 24/7 digital front desk, it:</p>
+                                <p><span class="highlight">Collects Patient Details</span> – Gathers essential medical information like a digital form.</p>
+                                <p><span class="highlight">Books Appointments</span> – Matches patients with the right specialists based on symptoms.</p>
+                                <p><span class="highlight">Provides Instant Assistance</span> – Answers FAQs, offers guidance, and improves patient experience.</p>
+                                <p>MedicForm streamlines operations, reduces staff load, and ensures patients get timely, efficient care — all through a conversational AI interface.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project6.png" alt="HydroEnergen - Raindrop Energy Harvesting System">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name" style="margin-top: 2.5rem;">HydroEnergen – Raindrop Energy Harvesting System</a>
+                            <div class="portfolio__description">
+                                <p>HydroEnergen is an innovative, <span class="highlight">piezoelectric-based system</span> that converts the <span class="highlight">kinetic energy of raindrops</span> and flowing water into clean, renewable electricity. By using piezoelectric transducer plates (like PZT or PVDF), the system captures mechanical impact from rainfall and transforms it into usable electrical power.</p>
+                                <p>Designed for regions with frequent rain or near dam outlets, it features a <span class="highlight">modular and weatherproof architecture</span>, <span class="highlight">robust energy storage</span>, and a <span class="highlight">wireless IoT-based monitoring dashboard</span> for real-time insights. HydroEnergen offers a scalable and sustainable alternative to conventional power, supporting smarter energy infrastructure and the global shift toward clean energy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohityt175@gmail.com&su=Interested%20in%20Collaborating&body=Hi%20Mohit,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you.%0D%0A%0D%0ALet's%20discuss%20a%20potential%20collaboration%20or%20project%20opportunity.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you!%0D%0A%0D%0ABest%20regards," target="_blank" class="gmail-connect">mohityt175@gmail.com</a></span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 93421 57391</span>
+                    </div>
+
+                    <!-- Replaced form: clean FormSubmit version -->
+                    <form action="https://formsubmit.co/mohityt175@gmail.com" method="POST" class="contact__form">
+                      <div class="contact__inputs">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                      </div>
+
+                      <textarea name="message" rows="10" class="contact__input" placeholder="Your message" required></textarea>
+
+                      <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+                      <input type="hidden" name="_template" value="table">
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_next" value="thank-you.html">
+                                            <!-- Freshly redone Send Message button matching View Resume style -->
+                                            <button type="submit" class="contact_button button">
+                                                <i class='bx bx-send'></i>
+                                                <span>Send Message</span>
+                                            </button>
+                        <canvas id="confetti-canvas"></canvas>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">MOHIT ROSCEN</h2>
+                    <p class="footer__text">© 2025 Mohit Roscen. Designed & built by me.</p>
+                    <p class="footer__text">Let's build something great together</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#projects" class="footer__link">Projects</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <div class="footer__social-container">
+                        <a href="https://www.linkedin.com/in/mohit-roscen-389367293/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/mohitroscen" class="footer__social"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.instagram.com/neuron.tech_/" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://x.com/mohityt175" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohityt175@gmail.com&su=Interested%20in%20Collaborating" class="footer__social"><i class='bx bx-envelope' ></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
